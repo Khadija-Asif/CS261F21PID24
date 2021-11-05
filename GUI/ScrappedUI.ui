@@ -89,7 +89,7 @@
    </property>
    <property name="geometry">
     <rect>
-     <x>740</x>
+     <x>770</x>
      <y>380</y>
      <width>400</width>
      <height>400</height>
@@ -372,7 +372,7 @@ background-color: rgb(240, 240, 240)</string>
   <widget class="QPushButton" name="pushButton_4">
    <property name="geometry">
     <rect>
-     <x>80</x>
+     <x>570</x>
      <y>620</y>
      <width>181</width>
      <height>31</height>
@@ -397,7 +397,7 @@ background-color: rgb(192,192,192);
   <widget class="QComboBox" name="comboBox">
    <property name="geometry">
     <rect>
-     <x>280</x>
+     <x>80</x>
      <y>620</y>
      <width>181</width>
      <height>31</height>
@@ -416,6 +416,11 @@ background-color: rgb(192,192,192);
    </item>
    <item>
     <property name="text">
+     <string>Counting Sort</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
      <string>Merge Sort</string>
     </property>
    </item>
@@ -428,9 +433,9 @@ background-color: rgb(192,192,192);
   <widget class="QPushButton" name="pushButton_5">
    <property name="geometry">
     <rect>
-     <x>690</x>
+     <x>680</x>
      <y>520</y>
-     <width>121</width>
+     <width>201</width>
      <height>41</height>
     </rect>
    </property>
@@ -446,7 +451,7 @@ border-radius: 12px;
 background-color: rgb(192,192,192);</string>
    </property>
    <property name="text">
-    <string>Start Scrapping</string>
+    <string>Start Loading Scrapped Data</string>
    </property>
    <property name="icon">
     <iconset resource="test.qrc">
@@ -510,6 +515,66 @@ background-color: rgb(192,192,192);
     <string>  Want to Search item?</string>
    </property>
   </widget>
+  <widget class="QRadioButton" name="radioButton">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>620</y>
+     <width>95</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 12px;
+background-color: rgb(192,192,192);</string>
+   </property>
+   <property name="text">
+    <string>Name </string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton_2">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>620</y>
+     <width>95</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 12px;
+background-color: rgb(192,192,192);</string>
+   </property>
+   <property name="text">
+    <string>Price</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton_3">
+   <property name="geometry">
+    <rect>
+     <x>470</x>
+     <y>620</y>
+     <width>95</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="autoFillBackground">
+    <bool>false</bool>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius: 12px;
+background-color: rgb(192,192,192);</string>
+   </property>
+   <property name="text">
+    <string>Product ID</string>
+   </property>
+  </widget>
   <zorder>label</zorder>
   <zorder>label_2</zorder>
   <zorder>progressBar</zorder>
@@ -520,9 +585,12 @@ background-color: rgb(192,192,192);
   <zorder>tableWidget</zorder>
   <zorder>pushButton_4</zorder>
   <zorder>comboBox</zorder>
-  <zorder>pushButton_5</zorder>
   <zorder>pushButton_6</zorder>
   <zorder>label_4</zorder>
+  <zorder>pushButton_5</zorder>
+  <zorder>radioButton</zorder>
+  <zorder>radioButton_2</zorder>
+  <zorder>radioButton_3</zorder>
  </widget>
  <resources>
   <include location="test.qrc"/>
